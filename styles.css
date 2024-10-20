@@ -275,6 +275,87 @@ section {
     bottom: 2.5rem;
 }
 
+/* SKILLS PAGE */
+
+#skills {
+    position: relative;
+}
+
+.skills_text__p1{
+    text-align: center;
+}
+
+.skills_title {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #64ffda;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.skills_details_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills_containers {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+  
+.skills_sub_title {
+    color: white;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.frontend_container {
+    padding: 1.5rem 2rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: #64ffda 0.1rem solid;
+    text-align: center;
+}
+  
+.backend_container {
+    padding: 1.5rem 2rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: #64ffda 0.1rem solid;
+    text-align: center;
+}
+
+.skills_article_container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 4.5rem;
+    justify-content: space-evenly;
+}
+  
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article h3 {
+    color: white;
+}
+
+article p {
+    color: #64ffda;
+}
+  
+article .icon {
+    cursor: default;
+}
+
   
 
   
